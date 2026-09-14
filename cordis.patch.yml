@@ -1,0 +1,8 @@
+# @comecaramelos/dsh-collapse-multiline-paste — bundle patch.
+# Inserts the collapse-multiline row: the whole feature lives in the
+# browser bundle (lib/client.js); the row only serves the settings
+# namespace base layer (config {} = schema defaults).
+- insert:
+    - id: collapse-multiline
+      name: '@comecaramelos/dsh-collapse-multiline-paste'
+      config: {}
